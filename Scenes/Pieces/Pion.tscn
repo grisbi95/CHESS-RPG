@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://b6f1mknqij0dl"]
+
+[ext_resource type="Script" path="res://Scripts/Pieces/Pion.gd" id="1_rums1"]
+[ext_resource type="ArrayMesh" uid="uid://cswornoji8qi7" path="res://GameAsset/KayKit-Prototype-Bits/Assets/obj/Barrel_A.obj" id="1_vtdor"]
+
+[node name="Pion" type="Node3D"]
+script = ExtResource("1_rums1")
+
+[node name="Pion" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.48652, 0.216326, -1.57796)
+mesh = ExtResource("1_vtdor")
